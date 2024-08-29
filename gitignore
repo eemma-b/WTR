@@ -7,19 +7,6 @@
 *.o
 *.so
 
-# Packages #
-############
-# it's better to unpack these files and commit the raw source
-# git has its own built in compression methods
-*.7z
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip
-
 # Logs and databases #
 ######################
 *.log
@@ -35,20 +22,3 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
-
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-
-### Gradle ###
-.gradle
-build/
-
-# Ignore Gradle GUI config
-gradle-app.setting
-
-# Cache of project
-.gradletasknamecache
-
-ipynb_checkpoints
