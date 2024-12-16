@@ -1,4 +1,4 @@
-/* index.html */
+/* Home Page - index.html */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 img {
@@ -150,7 +150,7 @@ img {
     border-color: #faada3;
 }
 
-/* wtr1.html */
+/* Work Term 1 - wtr1.html */
 .wtr1 {
     background-image: 
         linear-gradient(140deg, #294e5d, #f1d1d1), 
@@ -193,7 +193,10 @@ img {
     padding-left: 25px;
 }
 
-.info, .goals, .job-description, .conclusions {
+.wtr1-content .info, 
+.wtr1-content .goals, 
+.wtr1-content .job-description, 
+.wtr1-content .conclusions {
     background-color: rgba(44, 74, 87, 0.6); 
     padding: 25px;
     margin-bottom: 30px;
@@ -202,7 +205,7 @@ img {
     border: 2px solid #ddd;
 }
 
-.acknowledgments {
+.wtr1-content .acknowledgments {
     background-color: rgba(44, 74, 87, 0.6); 
     padding: 25px;
     border-radius: 5px; 
@@ -210,18 +213,13 @@ img {
     border: 2px solid #ddd;
 }
 
-#CGI {
-    height: 120px;
-    margin-top: 35px;
-}
-
-.goals {
+.wtr1-content .goals {
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
 }
 
-.goals h2 {
+.wtr1-content .goals h2 {
     width: 100%;
     padding-bottom: 12px;
 }
@@ -243,22 +241,23 @@ img {
     height: 120px;
 }
 
+.wtr1-content .conclusions {
+    overflow: hidden; 
+}
+
+#CGI {
+    height: 120px;
+    margin-top: 35px;
+}
+
 #job {
     padding-top: 20px;
     height: 300px;
 }
 
-.conclusions {
-    overflow: hidden; 
-}
-
-#orientation {
+#orientation, #hackathon, #knit {
     height: 350px;
     padding-top: 28px;
-}
-
-#hackathon {
-    height: 322px;
 }
 
 #hand {
@@ -266,7 +265,7 @@ img {
     padding-top: 28px;
 }
 
-/* wtr2.html */
+/* Work Term 2 - wtr2.html */
 .wtr2 {
     background-image: 
     linear-gradient(140deg, #634d4e, #AF6861), 
@@ -309,7 +308,10 @@ img {
     padding-left: 25px;
 }
 
-.info2, .goals2, .job-description2, .conclusions2 {
+.wtr2-content .info, 
+.wtr2-content .goals, 
+.wtr2-content .job-description, 
+.wtr2-content .conclusions {
     background-color: #715e61a2; 
     padding: 25px;
     margin-bottom: 30px;
@@ -318,7 +320,7 @@ img {
     border: 2px solid #ffffff;
 }
 
-.acknowledgments2 {
+.wtr2-content .acknowledgments {
     background-color: #715e61a2; 
     padding: 25px;
     border-radius: 5px; 
@@ -326,13 +328,13 @@ img {
     border: 2px solid #ffffff;
 }
 
-.goals2 {
+.wtr2-content .goals {
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
 }
 
-.goals2 h2 {
+.wtr2-content .goals h2 {
     width: 100%;
     padding-bottom: 12px;
 }
